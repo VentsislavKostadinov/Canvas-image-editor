@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: FontAwesome, sans-serif;
+}
+
+body {
+  background: white;
+}
+
+.detect-device {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+.image-load-button, .image-json-data {
+  border: 1px solid #000000;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #ffffff;
+  background: #000000;
+  margin: 10px;
+}
+
+#myCanvas {
+  border: 3px solid gray;
+
+}
+
+.filters {
+  background: black;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+  p, button {
+
+    margin-top: 20px;
+
+    label {
+      margin: auto;
+      color: white;
+    }
+  }
+}
+
+.zooming {
+  background: black;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+
+  .zooming {
+    div {
+      padding-top: 10px;
+    }
+  }
+}
